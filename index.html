@@ -9,6 +9,27 @@
     <body>
         <div class="container">
             <h1>JS IssueTracker <small> by James Meegan</small></h1>
+            <div class="jumbotron">
+                <h3>Add New Issue: </h3>
+                <form id="issueInputForm">
+                    <div class="form-group">
+                        <label for="issueDescInput">Description</label>
+                        <input type="text" class="form-control" id="issueDescInput" placeholder="Describe the issue...">
+                    </div>
+                    <div class=form-group">
+                     <label for="issueSeverityInput">Severity</label>
+                         <select id="issueSeverityInput" class="form-control">
+                            <option value="Low">Low</option>
+                            <option value="Medium">Medium</option>
+                            <option value="High">High</option>
+                            </select>
+                     </div>
+                        <div class="form-group">
+                            <label for="issueDescInput">Description</label>
+                            <input type="text" class="form-control" id="issueDescInput" placeholder="Describe the issue...">
+                     </div>
+                </form>
+            </div>
         </div>
         <script src="https://chancejs.com/chance.min.js"></script>
         <script   src="https://code.jquery.com/jquery-3.6.0.min.js"   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="   crossorigin="anonymous"></script>
