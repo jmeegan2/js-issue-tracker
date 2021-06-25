@@ -1,0 +1,19 @@
+{
+  "name": "js-issue-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmeegan2/js-issue-tracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmeegan2/js-issue-tracker/issues"
+  },
+  "homepage": "https://github.com/jmeegan2/js-issue-tracker#readme"
+}
