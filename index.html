@@ -16,19 +16,27 @@
                         <label for="issueDescInput">Description</label>
                         <input type="text" class="form-control" id="issueDescInput" placeholder="Describe the issue...">
                     </div>
-                    <div class=form-group">
-                     <label for="issueSeverityInput">Severity</label>
-                         <select id="issueSeverityInput" class="form-control">
-                            <option value="Low">Low</option>
-                            <option value="Medium">Medium</option>
-                            <option value="High">High</option>
-                            </select>
+                    <div class="form-group">
+                        <label for="issueSeverityInput">Severity</label>
+                        <select id="issueSeverityInput" class="form-control">
+                          <option value="Low">Low</option>
+                          <option value="Medium">Medium</option>
+                          <option value="High">High</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                            <label for="issueAssignedToInput">Assigned To</label>
+                            <input type="text" class="form-control" id="issueAssignedToInput" placeholder="Enter responsible...">
                      </div>
-                        <div class="form-group">
-                            <label for="issueDescInput">Description</label>
-                            <input type="text" class="form-control" id="issueDescInput" placeholder="Describe the issue...">
-                     </div>
+                     <button type="submit" class="btn btn-primary">Add</button>
                 </form>
+            </div>
+            <div class="col-lg-12">
+                <div id="issuesList">
+                </div>
+            </div>
+            <div class="footer">
+                <p>&copy https://github.com/jmeegan2</p>
             </div>
         </div>
         <script src="https://chancejs.com/chance.min.js"></script>
